@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-13 03:26:40 by Eclipse SUMO jtrrouter Version 1.23.1
+<jtrrouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/jtrrouterConfiguration.xsd">
+
+    <input>
+        <net-file value="goodmap.net.xml"/>
+        <route-files value="trips_bordures.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes_jtr.rou.xml"/>
+    </output>
+
+    <processing>
+        <turn-defaults value="25,50,25"/>
+    </processing>
+
+</jtrrouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="53" depart="106.00">
+        <route edges="174115314#1 215667737#0 215667737#1 215667737#2 97668330#3 8101113#2 214262745#0 214262745#1 -215666786#4"/>
+    </vehicle>
+    <vehicle id="76" depart="152.00">
+        <route edges="97669073#0 215666784#0 -215666794 29892818#3 590294839#0 590294839#1 -590294839#1 -590294839#0 -97669073#1 -97669073#0 1055764965 551708627#0 551708627#1 551708627#2 551708627#3 551708627#4 589340825 30134990#0 30134990#1 -36363698#2 -36363698#1 -36363698#0"/>
+    </vehicle>
+    <vehicle id="77" depart="154.00">
+        <route edges="215666786#1 214262735#10 214262735#11 589926548 248378000#7 248378000#8 248378000#9 526279652#0 214262735#6 8101113#0 8101113#1 8101113#2 214262745#0 214262745#1 215666786#5 -579487441 579487441 215666786#6 -215666786#6 -215666786#5 -214262745#1 -214262745#0 8101113#3 97668332 215667737#2 215667732 4406538#12 4406538#13 526279652#3 1317914966#0 1317914966#1 1317914966#2 -315929404#4 -315929404#3 286079207 -286079207 -315929404#2 214262735#0 214262735#1 214262735#2 214262735#3 214262735#4"/>
+    </vehicle>
+    <vehicle id="87" depart="174.00">
+        <route edges="215666784#0 215666784#1 551708627#1 590292161#0 590292161#1 29892818#2 29892818#3 215666792#0 215666792#1 -215666792#1 -215666792#0 590294839#0 590294839#1 -590294839#1 -590294839#0 -97669073#1 -97669073#0 97669073#0 97669073#1"/>
+    </vehicle>
+</routes>

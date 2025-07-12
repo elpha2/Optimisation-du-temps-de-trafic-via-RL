@@ -1,0 +1,25 @@
+<additional>
+    <!--
+        Fichier de définition des boucles à induction pour le carrefour principal.
+        CORRECTION : Les détecteurs sur des voies inexistantes (_1) ont été supprimés.
+    -->
+
+    <!-- Détecteurs pour la route 1106620641#2 -->
+    <inductionLoop id="det_1106620641_2_0" lane="1106620641#2_0" pos="-1" freq="60" file="output.xml"/>
+    <inductionLoop id="det_1106620641_2_1" lane="1106620641#2_1" pos="-1" freq="60" file="output.xml"/>
+    
+    <!-- Détecteurs pour la route 248378000#9 -->
+    <inductionLoop id="det_248378000_9_0" lane="248378000#9_0" pos="-1" freq="60" file="output.xml"/>
+    <inductionLoop id="det_248378000_9_1" lane="248378000#9_1" pos="-1" freq="60" file="output.xml"/>
+    
+    <!-- Détecteur pour la route 315929406#3 (une seule voie) -->
+    <inductionLoop id="det_315929406_3_0" lane="315929406#3_0" pos="-1" freq="60" file="output.xml"/>
+    
+    <!-- Détecteurs pour la route 420659193#1 -->
+    <inductionLoop id="det_420659193_1_0" lane="420659193#1_0" pos="-1" freq="60" file="output.xml"/>
+    <inductionLoop id="det_420659193_1_1" lane="420659193#1_1" pos="-1" freq="60" file="output.xml"/>
+    
+    <!-- Détecteur pour la route -215666786#0 (une seule voie) -->
+    <inductionLoop id="det_neg215666786_0_0" lane="-215666786#0_0" pos="-1" freq="60" file="output.xml"/>
+
+</additional>
